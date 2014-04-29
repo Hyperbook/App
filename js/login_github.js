@@ -1,6 +1,6 @@
 function ArcherCraftGithubLogin(){
 var github = new Github({
-  username: "YOU_USER",
+  username: $( "input:text[name=username]" ).val();,
   password: "YOUR_PASSWORD",
   auth: "basic"
 });
